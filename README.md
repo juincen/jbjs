@@ -2,8 +2,9 @@
 一个基于jQuery的前端渲染框架
 
 ## 用法
-引用了jb.min.js就不用引入jQuery了，其中已经包含了jQuery。
+引用了**jb.min.js**就不用引入jQuery了，其中已经包含了jQuery。
 
+```
 <div id="test">
   <h2>{{name}}</h2>
   <p>{{content}}</p>
@@ -17,5 +18,9 @@ JB.render({
   }
 });
 
-然后即可自动渲染，请不要直接传body
+```
+
+## 注意
+
+向上面这样用JB这个对象，使用render方法，传入参数后即可自动渲染，请不要直接传body
 建议使用id选择器，或者类选择器
