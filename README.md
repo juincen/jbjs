@@ -2,7 +2,8 @@
 一个基于jQuery的前端渲染框架
 
 ## 用法
-引用了**jb.min.js**就不用引入jQuery了，其中已经包含了jQuery，还基于art-template的封装。
+引用了**jb.min.js**就不用引入jQuery了，其中已经包含了jQuery，JB.js是基于art-template的封装，语法相同。
+模板语法请看art-template文档：https://aui.github.io/art-template/zh-cn/docs/
 
 ```
 <html>
