@@ -1,5 +1,5 @@
 # JB.js
-一个基于jQuery的前端渲染框架
+一个基于jQuery的前端渲染框架，路由功能正在开发中...
 
 ## 用法
 引用了**jb.min.js**就不用引入jQuery了，其中已经包含了jQuery，JB.js是基于art-template的封装，语法相同。
